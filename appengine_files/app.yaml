@@ -9,7 +9,10 @@ handlers:
   static_dir: css
 
 - url: /js
-  static_dir: js  
+  static_dir: js
+
+- url: /img
+  static_dir: img     
 
 - url: /favicon\.ico
   static_files: favicon.ico
