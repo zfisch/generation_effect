@@ -1,0 +1,161 @@
+
+html, body {
+	padding:0px;
+	margin:0px;
+}
+
+
+body {
+	position: relative;
+	width: 100%;
+	font-family: "Raleway", sans-serif;
+	color: #47525d;
+	background: -webkit-gradient(linear, bottom, left 175px, from(#CCCCCC), to(#EEEEEE));
+	background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+}
+
+form {
+	height: 650px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+h1 {
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 20px;
+	display: block;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3.5em;
+}
+
+
+h3 {
+	font-family: "Raleway", sans-serif;
+	font-size: 1.4em;
+	margin-top: 0;
+	padding-bottom: 3%;
+	color: #678;
+	font-weight: normal;
+	text-align: center
+}
+
+#content {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+#wrapper {
+	position: relative;
+}
+
+#submission {
+	margin-right: auto;
+	margin-left: auto
+}
+
+#submit-button {
+	position: absolute;
+	display: block;
+	right: 170px;
+	margin-top: 15px;
+}
+
+#container {
+}
+
+#form {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	display: block;
+	max-width: 800px;
+	height: 75%;
+	-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+#links {
+	margin-top: 100px;
+	text-align: center;
+}
+
+
+a:link {
+	text-decoration:underline;
+	color: inherit;
+}
+
+a:visited {
+	text-decoration:underline;
+	color: inherit;
+}
+
+a:hover {
+	text-decoration:underline;
+	color: inherit;
+}
+
+a:active {
+	text-decoration:underline;
+	color: inherit;
+}
+
+.btn-lg {
+  padding: 10px 16px;
+  font-size: inherit;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+
+.btn-default {
+  color: #678;
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+  color: #ffffff;
+  background-color: #678;
+  border-color: #adadad;
+}
+
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+  background-image: none;
+}
+
+/* this is a custom CSS stylesheet */
+
+footer {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	padding: 2em 0;
+	border-top: 2px solid #ddd;
+	color: #333;
+	font-weight: 400;
+	line-height: 2em
+}
+
+.fade {
+   opacity: 1;
+   transition: opacity .15s ease-in-out;
+   -moz-transition: opacity .15s ease-in-out;
+   -webkit-transition: opacity .15s ease-in-out;
+   -webkit-backface-visibility: hidden;
+}
+
+.fade:hover {
+      opacity: 0.5;
+}
