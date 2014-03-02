@@ -103,6 +103,11 @@ h3 {
 	text-align: center;
 }
 
+.social {
+	margin-left: 20px;
+	margin-right: 20px
+}
+
 
 a:link {
 	text-decoration:underline;
